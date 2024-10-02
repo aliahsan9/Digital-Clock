@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+background-image: url(bg.jpg);
+background-size: cover;
+}
+.clock{
+    position: relative;
+    left: 550px;
+    top: 250px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 150px;   
+    background: linear-gradient(purple,blue,pink);
+    border-radius: 15px;
+    outline-offset: 2;
+    color:white;
+    font-size:xx-large;
+    font-weight: 900;
+}
